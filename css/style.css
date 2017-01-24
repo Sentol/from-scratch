@@ -1,0 +1,266 @@
+@charset"utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html{height: 100%;}
+
+
+
+body{
+	width: 100%;
+	height: 100%;
+	background-color: whitesmoke;
+	font-family: "Segoe UI", Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	line-height: 135%;
+	float: left;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+a{
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#9B9797;
+}
+.clear { /*Отделяет одну часть сайта от другой*/
+	clear: both;
+}
+
+/*стили для шапки*/
+
+header .navbar-brand{
+	width: 40%;
+	float: left;
+}
+header .navbar-brand a{
+	color: snow;
+	font-size: 2em;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+}
+header .navbar-brand span{
+	color: firebrick;
+}
+
+ #wrapper {
+	width: 60%;
+	margin-left: 20%;
+	float: left;
+}
+
+ #wrapper #leftColl{
+	width: 100%;
+	float: left;
+	
+}
+#wrapper #leftColl p{
+	line-height: normal;
+}
+
+
+header #regAuth{
+	margin-top: 7px;
+	color: white;
+	width: 30%;
+	float: right;
+	text-align: right;
+}
+body .advantage_work h1{
+	width: 100%;
+	float: left;
+	padding: 2%;
+	background-color: #c0c0c0;
+	border-top: 2px #241C10;
+	margin-top: 10px;
+	text-align: center;
+}
+body .advantage_work {
+	width: 100%;
+	float: left;
+	padding: 2%;
+	background-color: #c0c0c0;
+	border-top: 2px #241C10;
+	margin-top: 10px;
+	color: black;
+	
+}
+
+/*Styles for footer*/
+footer{
+	width: 100%;
+	height: 60px;
+	float: left;
+	padding: 1%;
+	background-color: black;
+	
+	
+}
+
+
+footer #social{
+	float: left;
+	width: 50%;
+}
+
+footer #social img{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 10px;
+}
+
+footer #rights{
+	margin-top: 10px;
+	float: right;
+	text-align: right;
+	font-size: 1.2em;
+}
+
+
+
+
+/*Причины выбрать нас*/
+.mod_uslugi-preimushestva-raboty{
+	color: black;
+	background-color: darkgray;
+}
+
+div.custom.mod_uslugi-preimushestva-raboty div.item-content>p {
+    font-size: 1.4em;
+    height: 2.5em;
+	
+}
+
+div.custom.mod_uslugi-preimushestva-raboty div.item-content>p {
+    font-size: 1.5em;
+    line-height: 1.1em;
+    font-weight: bold;
+    color: #f26027;
+}
+p {
+    margin: 10px;
+}
+p {
+    margin: 10px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+Inherited from div.item-content
+div.custom.mod_uslugi-preimushestva-raboty div.item-content {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+div.moduletable.mod_uslugi-preimushestva-raboty>h3 {
+    text-align: center;
+    font-size: 2.7em;
+    padding-top: 30px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px;
+    font-family: "OSWALD-LIGHT","Oswald-Light";
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1.1em;
+    font-weight: 900;
+    color: #000;
+}
+.h3, h3 {
+    font-size: 24px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+div.custom.mod_uslugi-preimushestva-raboty div.item-content table tr td:last-child {
+    height: 2em;
+    text-align: left;
+}
+table tr td {
+    font-size: 1em;
+}
+Inherited from table
+table {
+    border-spacing: 0;
+    border-collapse:inherit ;
+	border-color: black;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 8px;
+    border-color: black;
+}
+Inherited from div.item-content
+div.custom.mod_uslugi-preimushestva-raboty div.item-content {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: 10% ;
+    text-align: center;
+}
+
+#about p{
+	color: black;
+	padding: 30px 40px 0px 40px;
+}
+#about h1{
+	padding: 30px;
+	color: darkred;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+
